@@ -7,4 +7,4 @@ node_modules/
 static/media/
 static/webpack/
 
-.yarn/cache/
+.yarn/
