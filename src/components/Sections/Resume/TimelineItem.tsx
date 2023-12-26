@@ -12,14 +12,14 @@ const TimelineItem: FC<{item: TimelineItem}> = memo(({item}) => {
         <div className="flex items-center justify-center gap-x-2 md:justify-start">
         <a
           aria-label={location}
-          className="-m-1.5 rounded-md p-1.5 transition-all duration-300 hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500  sm:-m-3 sm:p-3"
+          className="-m-1.5 rounded-md p-1.5 transition-all duration-300 hover:text-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-700  sm:-m-3 sm:p-3"
           href={url}
           key={location}>
                       <span className="flex-1 text-sm font-medium italic sm:flex-none">{location}</span>
 
         </a>
           <span>•</span>
-          <span className="flex-1 text-sm sm:flex-none">{date}</span>
+          <span className="flex-1 text-sm sm:flex-none text-violet-700">{date}</span>
         </div>
       </div>
       {content}
