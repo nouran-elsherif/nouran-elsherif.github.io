@@ -97,9 +97,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: portrait,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I am a passionate and forward-thinking software engineer with a keen interest in developing cutting-edge mobile applications. My journey in the tech world is fueled by a relentless curiosity and a genuine love for learning new technologies.\nI approach challenges with a creative mindset, solving problems with innovative solutions. Beyond technical expertise, I value collaboration and effective communication, thriving in dynamic team environments. My journey is a continuous evolution, marked by a love for learning and a dedication to crafting impactful user experiences in the ever-changing landscape of technology.`,
   aboutItems: [
     {label: 'Location', text: 'Cairo, Egypt', Icon: MapIcon},
     {label: 'Age', text: '28', Icon: CalendarIcon},
